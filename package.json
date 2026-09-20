@@ -5,5 +5,11 @@
   "scripts": {
     "build": "cd frontend && npm install --include=dev && npm run build && cd ../backend && npm install",
     "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
   }
 }
